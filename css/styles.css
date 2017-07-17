@@ -1,0 +1,36 @@
+div {
+    overflow: hidden;
+}
+#page-wrapper
+{
+    height: 800px;
+    width: 100%;
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+}
+#left-side-container
+{
+    height: 800px;
+    width:40%;
+    background-color: white;
+    overflow: hidden;
+    float: left;
+}
+#right-side-container
+{
+    height: 800px;
+    width:60%;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    background-color: black;
+    float: right;
+}
+#footer
+{
+    padding: 3px;
+    display: block;
+    background-color: gray;
+    position: relative;
+}
